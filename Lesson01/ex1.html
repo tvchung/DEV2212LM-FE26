@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Các thẻ cơ bản trong HTML5</title>
+</head>
+<body>
+    <h1>Các thẻ cơ bản trong HTML5</h1>
+    <hr/>
+    <pre>
+        - Các thẻ tiêu đề: h1, h2, h3, h4, h5, h6 
+        - thẻ đoạn: p 
+        - thẻ ngữ nghĩa (inline): b , i , u, del , small, strong,... 
+        - một số thẻ: sup, sub , 
+        - thẻ liên kết: a 
+        - thẻ hiển thị hình ảnh: img 
+        - ....
+    </pre>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis in iste reiciendis asperiores perspiciatis earum sunt blanditiis exercitationem, nam suscipit dicta optio officia alias porro eveniet repellendus laboriosam et! Laudantium.
+    </p>
+    <h2>Sử dụng các thẻ inline</h2>
+    <p>
+        Sử dụng các thẻ inline: 
+        <br>
+        <b>Chữ đậm</b>
+        <br>
+        <i>Chữ nghiêng</i> <br>
+        <u>Chữ gạch chân </u> <br>
+        <del>Giá cũ: 1234.56</del>
+    </p>
+    <h3>Các thẻ chỉ số:</h3>
+    <p>
+        Công thức hóa học: 
+        2H<sub>2</sub> + O<sub>2</sub> = 2H<sub>2</sub>O
+        <br>
+        Phương trình bậc 2:
+        AX<sup>2</sup> + BX + C = 0
+    </p>
+    <h3>Thẻ hiển thị hình ảnh</h3>
+    <pre>
+        - sử dụng thẻ img 
+            * thuộc tính:
+                + src: url (đường dẫn)
+                    -> url - tương đối (Tính từ vị trí file html)
+                        ---> vào một thư mục: tenthumuc/ 
+                        ---> ra ngoài một thư mục: ../ 
+                        ---> về thư mục gốc: ./ 
+
+                    -> url - tuyệt đối
+                        [giao thức]://domain/pathFolder/file
+                        https://devmaster.edu.vn/images/logo.png
+                + alt: nội dung mô tả cho hình ảnh
+    </pre>
+    <p>
+        Sử dụng đường dẫn tuyệt đối: <br>
+        <img    src="https://devmaster.edu.vn/images/logo.png" 
+                alt="Viện Công Nghệ Và Đào Tạo Devmaster">
+    </p>
+    <p>
+        Sử dụng đường dẫn tương đối: <br>
+        <img src="images/logo.png" alt="Devmaster Academy">
+    </p>
+</body>
+</html>
